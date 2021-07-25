@@ -117,7 +117,7 @@ const loadTodoList = (input, id) => {
     todoList.append(titlelist)
     todoList.append(button)
     document.getElementById("todoList").prepend(todoList)
-    return todoList
+    // return todoList
 }
 
 const loaddoneList = (input) => {
@@ -134,7 +134,7 @@ const loaddoneList = (input) => {
     title.style.textDecoration = "line-through"
     newmember.append(title)
     doneLists.prepend(newmember)
-    return newmember
+    // return newmember
 }
 
 const smoothclear = () => {
