@@ -110,7 +110,7 @@ const loaddoneList = (input) => {
     doneLists.prepend(newmember)
 }
 
-const smoothclear = () => {
+const clearfunc = () => {
     localStorage.clear()
     location.reload()
 }
